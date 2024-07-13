@@ -1,0 +1,26 @@
+[
+    {
+        "amount": 120,
+        "category": "Food",
+        "description": "Lunch at a restaurant",
+        "date": "2024-07-13"
+    },
+    {
+        "amount": 100,
+        "category": "Food",
+        "description": "Dinner",
+        "date": "2024-07-13"
+    },
+    {
+        "amount": 700,
+        "category": "Sports",
+        "description": "Basket Ball",
+        "date": "2024-07-13"
+    },
+    {
+        "amount": 3000,
+        "category": "Vehicle",
+        "description": "Bycycle",
+        "date": "2024-07-13"
+    }
+]
