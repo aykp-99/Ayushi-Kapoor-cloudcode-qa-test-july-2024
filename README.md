@@ -28,9 +28,16 @@ Running the application :
 ```sh
 python starter.py
 ```
+**Output**
+![image](https://github.com/user-attachments/assets/4fe36fea-3a03-4918-8c75-155420a3bf81)
+
 
 Running Tests::
 
 ```sh
 pytest test_expense_tracker.py
 ```
+**Test Result**
+![image](https://github.com/user-attachments/assets/b525755c-819d-4f4a-b641-2b07dd24e304)
+
+
