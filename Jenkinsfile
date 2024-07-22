@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from your repository
-                git 'https://github.com/yourusername/my-python-app.git'
+                git 'https://github.com/aykp-99/Ayushi-Kapoor-cloudcode-qa-test-july-2024.git'
             }
         }
 
