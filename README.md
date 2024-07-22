@@ -45,11 +45,11 @@ Implemented a CI/CD pipeline for a application using Jenkins, facilitating autom
  
 #### To install Jenkins, you need to follow a series of steps that can vary slightly depending on your operating system. Below, I'll provide a guide for installing Jenkins on a Windows.
 
-- **Go to the Jenkins download page and download the Windows installer.**
-- **Run the downloaded .msi installer.**
-- **Follow the setup wizard steps to complete the installation.**
-- **After installation, open a web browser and go to http://localhost:9090.**
-- **Follow the instructions to unlock Jenkins, using the password from C:\Program Files (x86)\Jenkins\secrets\initialAdminPassword.**
+- Go to the Jenkins download page and download the Windows installer.
+- Run the downloaded .msi installer.
+- Follow the setup wizard steps to complete the installation.
+- After installation, open a web browser and go to http://localhost:9090.
+- Follow the instructions to unlock Jenkins, using the password from C:\Program Files (x86)\Jenkins\secrets\initialAdminPassword.
 
 ### Try running this command in your terminal to run and check the jenkins is installed or not.
 
