@@ -42,7 +42,7 @@ pytest test_expense_tracker.py
 
 
 # Additional Feature
-## Implemented a CI/CD pipeline for a application using Jenkins, facilitating automated testing and deployment to staging and production environments.
+### Implemented a CI/CD pipeline for a application using Jenkins, facilitating automated testing and deployment to staging and production environments.
  
 ### To install Jenkins, you need to follow a series of steps that can vary slightly depending on your operating system. Below, I'll provide a guide for installing Jenkins on a Windows.
 - **Go to the Jenkins download page and download the Windows installer**
@@ -51,16 +51,16 @@ pytest test_expense_tracker.py
 - **After installation, open a web browser and go to http://localhost:8080.
 - **Follow the instructions to unlock Jenkins, using the password from C:\Program Files (x86)\Jenkins\secrets\initialAdminPassword.
 
-# Try running this command in your terminal to run and check the jenkins is installed or not.
+### Try running this command in your terminal to run and check the jenkins is installed or not.
 ```sh
 java -jar "C:/Program Files/Jenkins/Jenkins.war" --version
 
 ```
-## Now to start the jenkins dashboard run this command in terminal 
+### Now to start the jenkins dashboard run this command in terminal 
 ```sh
 java -jar "C:/Program Files/Jenkins/Jenkins.war" --httpPort=9090
 ```
-## Visit localhost:9090 to make sure the app run successfully
+### Visit localhost:9090 to make sure the app run successfully
 - **Create Pipeline**: At Jenkins’s dashboard page, Click New Item, then fill pipeline name you’d want
 In section Build Trigger, there are several option for trigger Jenkins pipeline. for this, let’s choose Poll SCM. in the text-box write for schedule H/5 * * * *. with this configuration, Jenkins will check the repository every 5 minutes.
 Scroll down, in section Definition, choose option Pipeline script from SCM. this option will instruct Jenkins to create Pipeline from Source Control Management
