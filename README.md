@@ -64,13 +64,12 @@ java -jar "C:/Program Files/Jenkins/Jenkins.war" --httpPort=9090
 ```
 ### Visit localhost:9090 to make sure the app run successfully
 - **Create Pipeline**: At Jenkins’s dashboard page, Click New Item, then fill pipeline name you’d want
-- In section Build Trigger, there are several option for trigger Jenkins pipeline. for this, let’s choose Poll SCM. in the text-box write for schedule H/5 * * * *. with this configuration, Jenkins will check the repository every 5 minutes.
-Scroll down, in section Definition, choose option Pipeline script from SCM. this option will instruct Jenkins to create Pipeline from Source Control Management
-At coloumn SCM, checklist Git
- Fill URL Repository with URL from your github directory & save.
-From the pipeline, we can see there are 3 stages : Build image, Push Docker hub and Deploy to server.
+- In section Build Trigger, there are several option for trigger Jenkins pipeline. for this, let’s choose Poll SCM.
+- In section Definition, choose option Pipeline script from SCM. this option will instruct Jenkins to create Pipeline from Source Control Management
+- At coloumn SCM, checklist Git,fill URL Repository with URL from your github directory & save.
+- From the pipeline, we can see there are 3 stages : Build image, Push Docker hub and Deploy to server.
+ The job will start and do every step in stages. If success, it will have check mark
 
-2. The job will start and do every step in stages. If success, it will have check mark
    
 
 
