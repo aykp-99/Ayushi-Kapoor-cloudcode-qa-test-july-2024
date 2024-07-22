@@ -68,9 +68,11 @@ java -jar "C:/Program Files/Jenkins/Jenkins.war" --httpPort=9090
 - In section Definition, choose option Pipeline script from SCM. this option will instruct Jenkins to create Pipeline from Source Control Management
 - At coloumn SCM, checklist Git,fill URL Repository with URL from your github directory & save.
 - From the pipeline, we can see there are 3 stages : Build image, Push Docker hub and Deploy to server.
- The job will start and do every step in stages. If success, it will have check mark
+ The job will start and do every step in stages. If success, it will have check mark.
 
-   
+## Screenshot
+![img](Screenshot 2024-07-22 120602.png"
+)
 
 
   
