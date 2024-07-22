@@ -41,7 +41,7 @@ pytest test_expense_tracker.py
 ![image](https://github.com/user-attachments/assets/b525755c-819d-4f4a-b641-2b07dd24e304)
 
 # Additional Feature
-### Implemented a CI/CD pipeline for a application using Jenkins, facilitating automated testing and deployment to staging and production environments.
+#### Implemented a CI/CD pipeline for a application using Jenkins, facilitating automated testing and deployment to staging and production environments.
  
 ### To install Jenkins, you need to follow a series of steps that can vary slightly depending on your operating system. Below, I'll provide a guide for installing Jenkins on a Windows.
 
@@ -70,7 +70,7 @@ java -jar "C:/Program Files/Jenkins/Jenkins.war" --httpPort=9090
 - From the pipeline, we can see there are 3 stages : Build image, Push Docker hub and Deploy to server.
  The job will start and do every step in stages. If success, it will have check mark.
 
-## Screenshot
+### Result
 ![image](Screenshot 2024-07-22 120602.png")
 
 
