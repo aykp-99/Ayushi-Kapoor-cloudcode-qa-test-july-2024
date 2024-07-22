@@ -44,6 +44,7 @@ pytest test_expense_tracker.py
 ### Implemented a CI/CD pipeline for a application using Jenkins, facilitating automated testing and deployment to staging and production environments.
  
 ### To install Jenkins, you need to follow a series of steps that can vary slightly depending on your operating system. Below, I'll provide a guide for installing Jenkins on a Windows.
+
 - **Go to the Jenkins download page and download the Windows installer.**
 - **Run the downloaded .msi installer.**
 - **Follow the setup wizard steps to complete the installation.**
@@ -70,6 +71,6 @@ java -jar "C:/Program Files/Jenkins/Jenkins.war" --httpPort=9090
  The job will start and do every step in stages. If success, it will have check mark.
 
 ## Screenshot
-![img](Screenshot 2024-07-22 120602.png")
+![image](Screenshot 2024-07-22 120602.png")
 
 
