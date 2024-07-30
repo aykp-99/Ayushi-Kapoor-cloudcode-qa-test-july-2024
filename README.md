@@ -71,6 +71,7 @@ java -jar "C:/Program Files/Jenkins/Jenkins.war" --httpPort=9090
  The job will start and do every step in stages. If success, it will have check mark.
 
 ### Result
-![image](Screenshot 2024-07-22 120602.png")
+![Screenshot 2024-07-22 120602](https://github.com/user-attachments/assets/cf1585d4-e75a-4ae3-82cf-556c2b3cd779)
+
 
 
